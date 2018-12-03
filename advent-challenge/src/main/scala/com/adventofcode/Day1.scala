@@ -1,9 +1,9 @@
-package day1
+package com.adventofcode
 
 import scala.annotation.tailrec
 import scala.io.Source
 
-object Main extends App {
+object Day1 extends App {
   val input = Source.fromResource("day1.txt").getLines().map(_.toLong).toList
 
   val solution1 = input.sum
