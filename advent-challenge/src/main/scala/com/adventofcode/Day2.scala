@@ -24,7 +24,6 @@ object Day2 extends App {
 
   println("SOLUTION 1: " + solution1)
 
-  // <3 n^n
   val result = for {
     i <- input
     j <- input
